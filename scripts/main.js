@@ -105,197 +105,197 @@ const questions =
 		new Answer("are from", 0)
 	]),
 
-	// new Question("<h6>Starter - Elementary</h6>These are your books and ____ are mine.", 
-	// [
-	// 	new Answer("those ", 1),
-	// 	new Answer("this", 0),
-	// 	new Answer("it", 0),
-	// 	new Answer("that", 0)
-	// ]),
+	new Question("<h6>Starter - Elementary</h6>These are your books and ____ are mine.", 
+	[
+		new Answer("those ", 1),
+		new Answer("this", 0),
+		new Answer("it", 0),
+		new Answer("that", 0)
+	]),
 
-	// new Question("<h6>Starter - Elementary</h6>How ____ vegetables do you eat every day?", 
-	// [
-	// 	new Answer("many", 1),
-	// 	new Answer("long", 0),
-	// 	new Answer("more", 0),
-	// 	new Answer("much", 0)
-	// ]),
+	new Question("<h6>Starter - Elementary</h6>How ____ vegetables do you eat every day?", 
+	[
+		new Answer("many", 1),
+		new Answer("long", 0),
+		new Answer("more", 0),
+		new Answer("much", 0)
+	]),
 
-	// new Question("<h6>Starter - Elementary</h6>We ____ born in 1985.", 
-	// [
-	// 	new Answer("is", 0),
-	// 	new Answer("were", 1),
-	// 	new Answer("was", 0),
-	// 	new Answer("did", 0)
-	// ]),
+	new Question("<h6>Starter - Elementary</h6>We ____ born in 1985.", 
+	[
+		new Answer("is", 0),
+		new Answer("were", 1),
+		new Answer("was", 0),
+		new Answer("did", 0)
+	]),
 
-	// new Question("<h6>Starter - Elementary</h6>Don't stay up late or you ____ be tired tomorrow.", 
-	// [
-	// 	new Answer("must", 0),
-	// 	new Answer("won’t", 0),
-	// 	new Answer("should", 0),
-	// 	new Answer("’ll", 1)
-	// ]),
+	new Question("<h6>Starter - Elementary</h6>Don't stay up late or you ____ be tired tomorrow.", 
+	[
+		new Answer("must", 0),
+		new Answer("won’t", 0),
+		new Answer("should", 0),
+		new Answer("’ll", 1)
+	]),
 
-	// new Question("<h6>Pre-intermediate</h6> ____ you ever seen Bayraktar?", 
-	// [
-	// 	new Answer("Did", 0),
-	// 	new Answer("Do", 0),
-	// 	new Answer("Have", 1),
-	// 	new Answer("Has", 0)
-	// ]),
+	new Question("<h6>Pre-intermediate</h6> ____ you ever seen Bayraktar?", 
+	[
+		new Answer("Did", 0),
+		new Answer("Do", 0),
+		new Answer("Have", 1),
+		new Answer("Has", 0)
+	]),
 
-    // new Question("<h6>Pre-intermediate</h6>We should avoid _____ in August.", 
-	// [
-	// 	new Answer("travelled", 0),
-	// 	new Answer("to travel", 0),
-	// 	new Answer("travelling", 1),
-	// 	new Answer("to travelling", 0)
-	// ]),
+    new Question("<h6>Pre-intermediate</h6>We should avoid _____ in August.", 
+	[
+		new Answer("travelled", 0),
+		new Answer("to travel", 0),
+		new Answer("travelling", 1),
+		new Answer("to travelling", 0)
+	]),
 
-    // new Question("<h6>Pre-intermediate</h6>Are you ____ at Bomi this month?", 
-	// [
-	// 	new Answer("going to study", 1),
-	// 	new Answer("study", 0),
-	// 	new Answer("going study", 0),
-	// 	new Answer("go to study", 0)
-	// ]),
+    new Question("<h6>Pre-intermediate</h6>Are you ____ at Bomi this month?", 
+	[
+		new Answer("going to study", 1),
+		new Answer("study", 0),
+		new Answer("going study", 0),
+		new Answer("go to study", 0)
+	]),
 
-    // new Question("<h6>Pre-intermediate</h6>I ____  Sergiy Pritula’s Instagram when somebody sent me a message.", 
-	// [
-	// 	new Answer("was scroll", 0),
-	// 	new Answer("did scroll", 0),
-	// 	new Answer("was scrolling", 1),
-	// 	new Answer("am scrolling", 0)
-	// ]),
+    new Question("<h6>Pre-intermediate</h6>I ____  Sergiy Pritula’s Instagram when somebody sent me a message.", 
+	[
+		new Answer("was scroll", 0),
+		new Answer("did scroll", 0),
+		new Answer("was scrolling", 1),
+		new Answer("am scrolling", 0)
+	]),
 
-    // new Question("<h6>Pre-intermediate</h6>It _____ rain tomorrow. It’s going to be a very wet day.", 
-	// [
-	// 	new Answer("‘ll", 1),
-	// 	new Answer("might", 0),
-	// 	new Answer("won’t", 0),
-	// 	new Answer("might not", 0)
-	// ]),
+    new Question("<h6>Pre-intermediate</h6>It _____ rain tomorrow. It’s going to be a very wet day.", 
+	[
+		new Answer("‘ll", 1),
+		new Answer("might", 0),
+		new Answer("won’t", 0),
+		new Answer("might not", 0)
+	]),
 
-    // new Question("<h6>Intermediate</h6>Who ____ a weird tweet of Ilon Mask? It is cringe.", 
-	// [
-	// 	new Answer("saw", 1),
-	// 	new Answer("did see", 0),
-	// 	new Answer("are see", 0),
-	// 	new Answer("did saw", 0)
-	// ]),
+    new Question("<h6>Intermediate</h6>Who ____ a weird tweet of Ilon Mask? It is cringe.", 
+	[
+		new Answer("saw", 1),
+		new Answer("did see", 0),
+		new Answer("are see", 0),
+		new Answer("did saw", 0)
+	]),
 
-    // new Question("<h6>Intermediate</h6>She is one of ____ students in her class.", 
-	// [
-	// 	new Answer("cleverer", 0),
-	// 	new Answer("more clever", 0),
-	// 	new Answer("the most cleverer", 0),
-	// 	new Answer("the cleverest", 1)
-	// ]),
+    new Question("<h6>Intermediate</h6>She is one of ____ students in her class.", 
+	[
+		new Answer("cleverer", 0),
+		new Answer("more clever", 0),
+		new Answer("the most cleverer", 0),
+		new Answer("the cleverest", 1)
+	]),
 
-    // new Question("<h6>Intermediate</h6>The Ukrainians are the strongest people in the world, ____ ?", 
-	// [
-	// 	new Answer("isn’t they", 0),
-	// 	new Answer("haven’t they", 0),
-	// 	new Answer("aren’t they", 1),
-	// 	new Answer("were they", 0)
-	// ]),
+    new Question("<h6>Intermediate</h6>The Ukrainians are the strongest people in the world, ____ ?", 
+	[
+		new Answer("isn’t they", 0),
+		new Answer("haven’t they", 0),
+		new Answer("aren’t they", 1),
+		new Answer("were they", 0)
+	]),
 
-    // new Question("<h6>Intermediate</h6>If I ____ you, I’d take it back to the shop.", 
-	// [
-	// 	new Answer("was", 0),
-	// 	new Answer("were", 1),
-	// 	new Answer("have been", 0),
-	// 	new Answer("had been", 0)
-	// ]),
+    new Question("<h6>Intermediate</h6>If I ____ you, I’d take it back to the shop.", 
+	[
+		new Answer("was", 0),
+		new Answer("were", 1),
+		new Answer("have been", 0),
+		new Answer("had been", 0)
+	]),
 
-    // new Question("<h6>Intermediate</h6>I asked her if she _____ my new mobile.", 
-	// [
-	// 	new Answer("‘s seen", 0),
-	// 	new Answer("‘d seen", 1),
-	// 	new Answer("‘d see", 0),
-	// 	new Answer("saw", 0)
-	// ]), 
+    new Question("<h6>Intermediate</h6>I asked her if she _____ my new mobile.", 
+	[
+		new Answer("‘s seen", 0),
+		new Answer("‘d seen", 1),
+		new Answer("‘d see", 0),
+		new Answer("saw", 0)
+	]), 
 
-    // new Question("<h6>Upper-intermediate</h6>He _____ for his lesson at Bomi when somebody knocked the door.", 
-	// [
-	// 	new Answer("was waiting", 1),
-	// 	new Answer("‘d been waiting", 0),
-	// 	new Answer("waited", 0),
-	// 	new Answer("‘s been waiting", 0)
-	// ]),
+    new Question("<h6>Upper-intermediate</h6>He _____ for his lesson at Bomi when somebody knocked the door.", 
+	[
+		new Answer("was waiting", 1),
+		new Answer("‘d been waiting", 0),
+		new Answer("waited", 0),
+		new Answer("‘s been waiting", 0)
+	]),
 
-    // new Question("<h6>Upper-intermediate</h6>I didn't feel like going to the party. I ____ an excuse.", 
-	// [
-	// 	new Answer("wish I made", 0),
-	// 	new Answer("should do", 0),
-	// 	new Answer("should’ve made", 1),
-	// 	new Answer("should‘ve make", 0)
-	// ]), 
+    new Question("<h6>Upper-intermediate</h6>I didn't feel like going to the party. I ____ an excuse.", 
+	[
+		new Answer("wish I made", 0),
+		new Answer("should do", 0),
+		new Answer("should’ve made", 1),
+		new Answer("should‘ve make", 0)
+	]), 
 
-    // new Question("<h6>Upper-intermediate</h6>It’s not worth ____ about. He won't notice it’s missing.", 
-	// [
-	// 	new Answer("to worry", 0),
-	// 	new Answer("worry", 0),
-	// 	new Answer("worrying", 1),
-	// 	new Answer("of worrying", 0)
-	// ]), 
+    new Question("<h6>Upper-intermediate</h6>It’s not worth ____ about. He won't notice it’s missing.", 
+	[
+		new Answer("to worry", 0),
+		new Answer("worry", 0),
+		new Answer("worrying", 1),
+		new Answer("of worrying", 0)
+	]), 
 
-    // new Question("<h6>Upper-intermediate</h6>They’re having lunch with his girlfriend’s parents, ____ live in Brighton.", 
-	// [
-	// 	new Answer("that they", 0),
-	// 	new Answer("who", 1),
-	// 	new Answer("that", 0),
-	// 	new Answer("whom", 0)
-	// ]),
+    new Question("<h6>Upper-intermediate</h6>They’re having lunch with his girlfriend’s parents, ____ live in Brighton.", 
+	[
+		new Answer("that they", 0),
+		new Answer("who", 1),
+		new Answer("that", 0),
+		new Answer("whom", 0)
+	]),
 
-    // new Question("<h6>Upper-intermediate</h6>When do you think you ____ painting the house?", 
-	// [
-	// 	new Answer("finish", 0),
-	// 	new Answer("‘ll have finished", 1),
-	// 	new Answer("be finishing", 0),
-	// 	new Answer("would‘ve finished", 0)
-	// ]),
+    new Question("<h6>Upper-intermediate</h6>When do you think you ____ painting the house?", 
+	[
+		new Answer("finish", 0),
+		new Answer("‘ll have finished", 1),
+		new Answer("be finishing", 0),
+		new Answer("would‘ve finished", 0)
+	]),
 
-    // new Question("<h6>Advanced</h6>The neighbours ____ the noise of the party. It was terribly loud.", 
-	// [
-	// 	new Answer("must’ve heard", 1),
-	// 	new Answer("‘ll hear", 0),
-	// 	new Answer("couldn’t hear", 0),
-	// 	new Answer("can’t have heard", 0)
-	// ]),
+    new Question("<h6>Advanced</h6>The neighbours ____ the noise of the party. It was terribly loud.", 
+	[
+		new Answer("must’ve heard", 1),
+		new Answer("‘ll hear", 0),
+		new Answer("couldn’t hear", 0),
+		new Answer("can’t have heard", 0)
+	]),
 
-    // new Question("<h6>Advanced</h6>Unfortunately, she keeps ____ headaches after missiles attack.", 
-	// [
-	// 	new Answer("to feel", 0),
-	// 	new Answer("to getting", 0),
-	// 	new Answer("feeling", 0),
-	// 	new Answer("getting", 1)
-	// ]),
+    new Question("<h6>Advanced</h6>Unfortunately, she keeps ____ headaches after missiles attack.", 
+	[
+		new Answer("to feel", 0),
+		new Answer("to getting", 0),
+		new Answer("feeling", 0),
+		new Answer("getting", 1)
+	]),
 
-    // new Question("<h6>Advanced</h6>I’ll never ____ Rihanna at the concert.", 
-	// [
-	// 	new Answer("forget seeing", 1),
-	// 	new Answer("remember to see", 0),
-	// 	new Answer("forget to seeing", 0),
-	// 	new Answer("remember to see", 0)
-	// ]),
+    new Question("<h6>Advanced</h6>I’ll never ____ Rihanna at the concert.", 
+	[
+		new Answer("forget seeing", 1),
+		new Answer("remember to see", 0),
+		new Answer("forget to seeing", 0),
+		new Answer("remember to see", 0)
+	]),
 
-    // new Question("<h6>Advanced</h6>A book ____ by a 12-year-old girl has won a €2,500 award.", 
-	// [
-	// 	new Answer("wrote", 0),
-	// 	new Answer("writing", 0),
-	// 	new Answer("been written", 0),
-	// 	new Answer("written", 1)
-	// ]),
+    new Question("<h6>Advanced</h6>A book ____ by a 12-year-old girl has won a €2,500 award.", 
+	[
+		new Answer("wrote", 0),
+		new Answer("writing", 0),
+		new Answer("been written", 0),
+		new Answer("written", 1)
+	]),
 
-    // new Question("<h6>Advanced</h6>At this time tomorrow, they ____ English at Bomi.", 
-	// [
-	// 	new Answer("‘ll study", 0),
-	// 	new Answer("might studying", 0),
-	// 	new Answer("‘ll be studying ", 1),
-	// 	new Answer("be studying", 0)
-	// ])
+    new Question("<h6>Advanced</h6>At this time tomorrow, they ____ English at Bomi.", 
+	[
+		new Answer("‘ll study", 0),
+		new Answer("might studying", 0),
+		new Answer("‘ll be studying ", 1),
+		new Answer("be studying", 0)
+	])
 ];
 
 const quiz = new Quiz(1, questions, results);
