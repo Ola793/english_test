@@ -1,0 +1,147 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 14px;
+	font-family: helvetica, arial;
+	background: #f9f9f9;
+	color: #111;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+.main {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.quiz-frame {
+	border: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.quiz__header {
+	font-size: 20pt;
+	margin: 10px;
+	margin-bottom: 50px;
+}
+
+.header__content {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.quiz__body {
+	margin: 10px;
+}
+
+.quiz__footer {
+	position: absolute;
+	bottom: 5%;
+	display: block;
+	width: 100%;
+}
+
+.footer__content {
+	padding: 5px;
+}
+
+#start {
+	border: 0;
+	border-radius: 10px;
+	background: #43d273;
+	color: #fff;
+	padding: 10px 25px;
+	width: 50%;
+	font-size: 15pt;
+	display: block;
+	margin: 2px auto;
+	cursor: pointer;
+}
+
+.button {
+	border: 0;
+	border-radius: 10px;
+	background: #6477EB;
+	color: #fff;
+	padding: 10px 25px;
+	width: 70%;
+	font-size: 15pt;
+	display: block;
+	margin: 2px auto;
+	cursor: pointer;
+}
+
+.button_passive {
+	background: #B3B3B3;
+}
+
+#form {
+	flex-grow: 1;
+	margin: 50px 0;
+	text-align: center;
+}
+
+#form .your_data, .see_results {
+	width: 85%;
+	height: 40px;
+	margin: 10px;
+}
+
+#form .your_data {
+	border: 1px solid #0068FF;
+	padding: 0 0 0 17px;
+	box-sizing: border-box;
+}
+
+#form .your_data::placeholder {
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.49px;
+	padding: 11px 0;
+}
+
+#form .your_data input:focus {
+	outline: none;
+	border-color: #939393;
+}
+
+#form .see_results {
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.56px;
+	color: #fff;
+	border-width: 0;
+	padding: 11px 0 10px;
+	background-color: #000;
+	cursor: pointer;
+}
+
+.button:hover, #start:hover, #form .see_results:hover {
+	opacity: 0.75;
+}
+
+.telegram, .instagram {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 20px;
+}
+
+.telegram {
+	background-image: url(../images/telegram.svg);
+}
+
+.instagram {
+	background-image: url(../images/instagram.svg);
+}
