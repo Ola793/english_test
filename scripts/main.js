@@ -311,7 +311,7 @@ startButton.addEventListener("click", function() {
 });
 
 function ValidName() {
-	let re = /^([А-Яа-яёЁЇїІіЄєҐґ]{0,24}[а-яё]{0,24}|[A-Z]{0,24}[a-z]{0,24}|[А-Яа-яёЁЇїІіЄєҐґ]{0,24}[а-яё]{0,24}(\s){1}[А-Яа-яёЁЇїІіЄєҐґ]{0,24}[а-яё]{0,24}|[A-Z]{0,24}[a-z]{0,24}(\s){1}[A-Z]{0,24}[a-z]{0,24})$/;
+	let re = /^([А-Яа-яёЁЇїІіЄєҐґ]{0,24}[а-яё]{0,24}(\s){0,5}|[A-Z]{0,24}[a-z]{0,24}(\s){0,5}|[А-Яа-яёЁЇїІіЄєҐґ]{0,24}[а-яё]{0,24}(\s){1,5}[А-Яа-яёЁЇїІіЄєҐґ]{0,24}[а-яё]{0,24}(\s){0,5}|[A-Z]{0,24}[a-z]{0,24}(\s){1,5}[A-Z]{0,24}[a-z]{0,24}(\s){0,5})$/;
 	let name = document.getElementById('name');
 	let name_value = document.getElementById('name').value;
 	let valid = re.test(name_value);
